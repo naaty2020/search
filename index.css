@@ -1,0 +1,124 @@
+body {
+  font-family: sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  .toHideInSmall {
+    display: none;
+  }
+}
+
+.toHideInSmall {
+  font-size: smaller;
+  color: #777;
+}
+
+.toHideInSmall .col-sm-6 {
+  font-weight: bolder;
+}
+
+input[name="q"] {
+  border-radius: 25px;
+  border-color: rgba(0, 0, 0, 0.25);
+  color: rgba(0, 0, 0, 0.87);
+  outline: none;
+  font-size: 16px;
+  border: none;
+  margin-top: 25px;
+}
+
+input[name="q"]:hover {
+  -webkit-box-shadow: 1px 1px 4px 4px #dddddd;
+          box-shadow: 1px 1px 4px 4px #dddddd;
+}
+
+#adv {
+  margin-top: 20px;
+  font-size: small;
+  font-weight: 500;
+}
+
+#adv .form-control {
+  border-radius: 1px;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  font-size: 13px;
+  height: 30px;
+}
+
+#adv .form-control:focus {
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
+          box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
+  border: 1px solid #4d90fe;
+  outline: none;
+}
+
+#lbl {
+  color: #d93025;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 25px 45px;
+}
+
+.gr {
+  background-image: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  color: #5F6368;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+}
+
+.gr:hover {
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  background-image: -webkit-linear-gradient(top, #f8f8f8, #f1f1f1);
+  background-color: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  color: #222;
+}
+
+.gr:focus {
+  border: 1px solid #4d90fe;
+  outline: none;
+}
+
+.bton {
+  border-radius: 2px;
+  cursor: default;
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+  outline: 0;
+  float: right;
+  background-color: #4285F4;
+  color: white;
+  border: none;
+}
+
+.my-container {
+  margin: 45px 45px 45px 45px;
+}
+
+.forsearch {
+  margin-top: 100px;
+}
+
+#lg {
+  position: relative;
+  text-align: center;
+}
+
+#lg span {
+  color: #4285f4;
+  position: absolute;
+  bottom: 1px;
+  right: 6px;
+}
+/*# sourceMappingURL=index.css.map */

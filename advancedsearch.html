@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Search</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm py-1 navbar-light" style="background-color: #eeeeee; margin-right: 4px;">
+        <a class="navbar-brand" href="index.html" id="ad"><img src="google.png" alt="Google logo" width="92" height="32"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link" href="imgsearch.html" style="margin-right: 30px; font-size: 15px; color: black;">Images</a>                
+            </div>
+        </div>
+    </nav>
+        <label id="lbl">Advanced Search</label>
+        <hr>
+        <div class="my-container">            
+            <div class="row">
+                <div class="col-sm-2">Find pages with...</div>
+                <div class="col-sm-4"></div>
+                <div class="col-sm-3 toHideInSmall" style="padding-left: 100px;">To do this in the search box.</div>
+                <div class="col-sm-3"></div>
+            </div>
+            <form action="https://google.com/search" method="GET" name="f" id="adv">
+                <div class="form-group row">                    
+                    <label for="first" class="col-sm-2 col-form-label">all these words:</label>
+                    <div class="col-sm-5">
+                      <input type="text" autofocus="autofocus" class="form-control" id="first" name="as_q">
+                    </div>
+                    <div class="col-sm-3 toHideInSmall">Type the important words: tri-colour rat terrier</div>
+                    <div class="col-sm-2"></div>
+                </div>
+                <div class="form-group row">
+                    <label for="second" class="col-sm-2 col-form-label">this exact word or phrase:</label>
+                    <div class="col-sm-5">
+                      <input type="text" autofocus="autofocus" class="form-control" id="second" name="as_epq">
+                    </div>
+                    <div class="col-sm-3 toHideInSmall">Put exact words in quotes: "rat terrier"</div>
+                    <div class="col-sm-2"></div>
+                </div>
+                <div class="form-group row">
+                    <label for="third" class="col-sm-2 col-form-label">any of these words:</label>
+                    <div class="col-sm-5">
+                      <input type="text" autofocus="autofocus" class="form-control" id="third" name="as_oq">
+                    </div>
+                    <div class="col-sm-4 toHideInSmall">Type OR between all the words you want: miniature OR standard</div>
+                    <div class="col-sm-1"></div>
+                </div>
+                <div class="form-group row">
+                    <label for="fourth" class="col-sm-2 col-form-label">none of these words:</label>
+                    <div class="col-sm-5">
+                      <input type="text" autofocus="autofocus" class="form-control" id="fourth" name="as_eq">
+                    </div>
+                    <div class="col-sm-3 toHideInSmall">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</div>
+                    <div class="col-sm-2"></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-5">
+                        <input class="bton" style="line-height:100%;height:30px;min-width:120px"
+                        value="Advanced Search" type="submit">
+                    </div>
+                </div>
+            </form>            
+        </div>
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Search</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link" href="index.html" style="font-size: 15px; color: black;">Google</a>
+                <a class="nav-item nav-link" href="advancedsearch.html" style="font-size: 15px; color: black;">Advanced</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+                <form class="forsearch" action="https://google.com/search">
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="mx-auto">
+                                <label id="lg"><img src="google.png" alt="Google logo"><span>images</span></label>
+                            </div>
+                        </div>
+                        <input type="text" class="border border-dark form-control form-control-lg" name="q">
+                        <input type="hidden" name="tbm" value="isch">
+                    </div>
+                    <div class="row">
+                        <div class="mx-auto" style="margin-top: 20px;">
+                            <input type="submit" class="btn btn-light gr" value="Google Search">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+    </div>
+</body>
+
+</html>
